@@ -1,0 +1,143 @@
+
+
+html {
+  background-color: #FECDA6;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.introduction {
+  text-align: justify;
+}
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+
+.main-responsabilities {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.responsabilities {
+  background-color: aliceblue;
+  flex: 1;
+  border-radius: 10px;
+}
+.responsabilities > * {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+.responsabilities li {
+  margin: 15px;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.main-title {
+
+  text-align: center;
+}
+.employer-name {
+  text-align: center;
+  padding: 20px;
+  background-color: aliceblue;
+  width: 300px;
+  border-radius: 10px;
+}
+.employer-name a {
+  padding: 10px;
+}
+
+.employer-name p {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.picture-about {
+  float: left;
+  margin-right: 20px;
+}
+
+button {
+    background-color: #102C57;
+    color: white;
+    height: 3rem;
+    font-size: larger;
+    border-radius: 10px;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  text-align: justify;
+}
+.education {
+  display: inline-block;
+}
+
+.navigator  {
+  display: flex; 
+  font-size: 1.2rem;
+  gap: 10px;
+  }
+  
+  /* Change the color of links on hover */
+  .navigator a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  #education {
+    display: flex;
+    gap: 100px;
+  }
+  .footer {
+    margin-top: 200px;
+    font-size: 1rem;
+    text-align: right;
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+    html {
+      font-size: 1rem;
+    }
+    .navigator {
+      display: block; 
+      font-size: 1rem;
+      gap: 5px;
+    }
+    #education {
+      display: block;
+      gap: 20px;
+      width: 100%;
+    }
+    iframe {
+      width: 75%;
+    }
+
+    .footer {
+      margin-top: 150px;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    .work {
+      flex-direction: column;
+    align-items: center;
+    }
+  }
