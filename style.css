@@ -140,4 +140,7 @@ p {
       flex-direction: column;
     align-items: center;
     }
+    .main-responsabilities {
+      flex-direction: column;
+    }
   }
